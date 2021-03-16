@@ -1,0 +1,27 @@
+@import "./utils/variables"; // outils Sass
+@import "./utils/functions"; 
+@import "./utils/mixins"; 
+@import "./vendors/extensions"; // fichiers externes (bootstrap, fontawesome...)
+@import "./base/base"; // règles de base définissant les fondations du site
+@import "./base/reset-normalize"; // reset des normes à appliquer
+@import "./base/typography"; // polices de caractères
+@import "./components/buttons"; // blocs BEM dépendants et élémentaires
+@import "./layouts/header"; // blocs BEM réutilisables
+@import "./layouts/nav";
+@import "./layouts/filAriane";
+@import "./layouts/form";
+@import "./layouts/footer";
+@import "./pages/index"; // règles spécifiques à une seule page
+@import "./themes/christmas"; // code thématique
+
+
+/* ################################# FORMAT DESKTOP ############################## */
+/* @media all and (min-width:961px) {} */
+
+
+/* ############################### FORMAT TABLETTE ############################### */
+/* @media all and (min-width:481px) and (max-width:960px){} */
+
+
+/* ################################# FORMAT MOBILE ############################### */
+/* @media all and (max-width:480px) {} */
